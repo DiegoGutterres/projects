@@ -1,0 +1,166 @@
+/* estrutura da pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+    grid-template-rows: 20% 60% 20%;
+    background-color: #171B24;
+}
+
+header{
+    height: 20vh;
+    grid-area: header;
+}
+
+main{
+    height: 60vh;
+    grid-area: main;
+}
+
+footer{
+    height: 20vh;
+    grid-area: footer;
+}
+
+/* conteudo da pagina */
+
+
+     /* titulo */
+h1 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+
+    color: antiquewhite;
+    font-size: 40px;
+    font-family: cursive;
+
+    cursor: pointer;
+}
+
+.subtitle{
+    color: orange;
+    margin-left: 5px;
+}
+
+.floating{
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0, 0px); }
+    50% { transform: translate(0, 15px); }
+    100% { transform: translate(0, -0px); }
+}
+
+    /* credito */
+
+a {
+    color: transparent;
+}
+
+.credit {
+    display: inline-block;
+    position: absolute;
+    bottom: 5vh;
+    right: 10vh;
+    
+
+    color: antiquewhite;
+    font-size: 30px;
+    margin-left: 25px;
+    font-family: cursive;
+    opacity: 0.05;
+
+    cursor: pointer;
+    transition: all 0.5s;   
+}
+
+.ctext {
+    padding: 20px;
+    font-size: 30px;
+    color: antiquewhite;
+    display: inline-block;
+    font-family: cursive;
+    text-align: center;
+}
+
+.txt {
+    display: flex;
+    justify-content: center;
+}
+
+.credit:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+
+    /* spotify music */
+
+    /* playlist */
+.playlist  {
+    display: inline-block;
+    position: absolute;
+    bottom: 5vh;
+    right: 35vh;
+
+    color: antiquewhite;
+    font-size: 30px; 
+    font-family: cursive;
+    opacity: 0.05;
+
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.playlist:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.ptext {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 10vh;
+}
+
+.rotate{
+    font-family: cursive;
+    color: antiquewhite;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+    /* play bttn */
+.button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    opacity: 0.0500;
+    cursor: pointer;
+    height: 50vh;
+}
+
+
+
+
+
