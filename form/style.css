@@ -1,0 +1,72 @@
+.title {
+    margin-top: 10px;
+    padding: 20px 10px;
+    display: inline;
+    justify-content: center;
+    color: antiquewhite;
+    font-family: cursive;
+}
+
+.title2 {
+    margin-top: 10px;
+    background-color: orange;
+    padding: 0 10px;
+    border: orange;
+    border-radius: 10px;
+    display: inline;
+    justify-content: center;
+    color:#171B24;
+    font-family: cursive;
+}
+
+.login {   
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.enter{
+    display: flex;
+    justify-content: center;
+    color: #faebd7;
+    font-family: cursive;
+}
+
+input[type=text]{
+    background-color: antiquewhite;
+    border: none;
+    box-shadow: 0 9px #BAAFA0;
+    border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+input[type=button]{
+    color: #171B24;
+    background-color:#ffa500;
+    border: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    border: transparent;
+    box-shadow: 0 9px #BF7C00;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    cursor: grab;
+
+}
+
+::placeholder{
+    color: #171B24;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+input[value="enviar"]{
+    font-family: cursive;
+}
+
+body{
+    background-color: #171B24;
+}
