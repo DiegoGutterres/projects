@@ -1,0 +1,15 @@
+indexar o repositorio:
+
+-> git clone (endereço do repositorio) - cria uma nuvem
+-> ls - diz onde ta
+-> cd (nome da pasta) - acessa a pasta
+-> git status - saber como ta
+-> git add (.) - colocar as coisas (o ponto faz add tudo)
+-> git commit -m "" - fazer um commit, o -m é pra msg e o '' é a msg
+-> git config --global user.email - registra o email
+-> git config --global user.name - registra o nome
+-> git checkout -b "" - cria uma branch e entra nela
+-> git branch - diz qnts branchs tem
+-> git checkout (nome da branch) - acessa a branch
+-> git push origin (branch) - coloca o bglho la
+-> git pull - traz tds atualizaçoes pro pc da branch
